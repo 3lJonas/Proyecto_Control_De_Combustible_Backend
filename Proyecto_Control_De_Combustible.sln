@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36429.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicioRutas", "MicroservicioRutas\MicroservicioRutas.csproj", "{FDD41700-7034-AAB7-2F73-F66FDC9D6A28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicioVehiculos", "MicroservicioVehiculos\MicroservicioVehiculos.csproj", "{A7CB8FFD-69FD-C202-BFA3-9D27CCB91210}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FDD41700-7034-AAB7-2F73-F66FDC9D6A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDD41700-7034-AAB7-2F73-F66FDC9D6A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDD41700-7034-AAB7-2F73-F66FDC9D6A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7CB8FFD-69FD-C202-BFA3-9D27CCB91210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CB8FFD-69FD-C202-BFA3-9D27CCB91210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CB8FFD-69FD-C202-BFA3-9D27CCB91210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CB8FFD-69FD-C202-BFA3-9D27CCB91210}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
