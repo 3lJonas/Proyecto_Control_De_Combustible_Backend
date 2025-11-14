@@ -18,9 +18,9 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(builder
 builder.Services.AddGrpc();
 builder.WebHost.ConfigureKestrel(options =>
 {
-    options.ListenAnyIP(8080, o => o.Protocols = HttpProtocols.Http2);
+    options.ListenAnyIP(8083, o => o.Protocols = HttpProtocols.Http2);
 
-    options.ListenAnyIP(8081, o =>
+    options.ListenAnyIP(8082, o =>
     {
         o.UseHttps("certs/devcert.pfx", "1234"); // Ruta del certificado y contraseña
         o.Protocols = HttpProtocols.Http2;

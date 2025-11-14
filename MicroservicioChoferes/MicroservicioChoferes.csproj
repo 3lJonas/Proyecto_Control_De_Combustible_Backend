@@ -26,6 +26,8 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.11" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+	  <Protobuf Include="Protos\Choferes.proto" GrpcServices="Server" />
+	  <Protobuf Include="Protos\Usuarios.proto" GrpcServices="Client" />
   </ItemGroup>
 
 </Project>

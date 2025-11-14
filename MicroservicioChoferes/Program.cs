@@ -17,7 +17,7 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(builder
 builder.Services.AddGrpc();
 builder.WebHost.ConfigureKestrel(options =>
 {
-    options.ListenAnyIP(8080, o => o.Protocols = HttpProtocols.Http2);
+    options.ListenAnyIP(8086, o => o.Protocols = HttpProtocols.Http2);
 
     options.ListenAnyIP(8081, o =>
     {
